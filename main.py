@@ -24,3 +24,9 @@ def bmi_calculator():
 
         else:
             print("You are severely overweight")
+
+    else:
+        print("Please enter valid details!")
+        bmi_calculator()
+
+bmi_calculator()
