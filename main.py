@@ -7,3 +7,7 @@ def bmi_calculator():
     BMI = weight / (height * height)
 
     print(f"Your Body Mass Index is: {BMI:.2f}")
+
+    if BMI > 0:
+
+        if BMI <= 16:
