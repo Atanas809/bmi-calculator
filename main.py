@@ -18,3 +18,9 @@ def bmi_calculator():
 
         elif BMI <= 25:
             print("You are Healthy")
+
+        elif BMI <= 30:
+            print("You are overweight")
+
+        else:
+            print("You are severely overweight")
