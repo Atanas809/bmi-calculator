@@ -12,3 +12,6 @@ def bmi_calculator():
 
         if BMI <= 16:
             print("You are severely underweight")
+
+        elif BMI <= 18.5:
+            print("You are underweight")
