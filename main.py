@@ -4,3 +4,4 @@ def bmi_calculator():
     weight = float(input("Enter your weight in kg: "))
 
     height = height / 100
+    BMI = weight / (height * height)
